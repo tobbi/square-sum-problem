@@ -4,7 +4,7 @@ import math
 parser = argparse.ArgumentParser(description='Find the hamiltonian path through a list of numbers from 1 to n, two adjacent numbers adding up to a square number')
 parser.add_argument('n', help="Max number", type=int)
 args = parser.parse_args()
-num_nodes = args.max
+num_nodes = args.n
 
 # Find hamiltonian path:
 # Source: https://www.python.org/doc/essays/graphs/
